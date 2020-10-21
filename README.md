@@ -24,7 +24,14 @@ $ python main.py
 
 ## Usage
 
-Update the username variable on line 4 to the desired 
+Update the username variable on line 4 to the desired profile.
+It should be what follows the '@' symbol on someone's profile.
+
+Then run the script with Python:
+
+``` bash
+python main.py
+```
 
 ## Requirements
 
