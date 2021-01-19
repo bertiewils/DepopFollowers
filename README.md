@@ -1,37 +1,24 @@
 # DepopFollowers
 
-This is a tiny Python script to retrieve the follower count of a profile as shown on the website.
+This is a tiny Python script to retrieve the follower count of a profile **as shown on the website**.
 
-In it's current form it will output the following:
-
-``` bash
-$ python main.py
-emrata has 63K followers!
-```
-
-If you want it to output just the follower count to use in other programs etc. then change the last line to:
-
-``` python
-print(followers)
-```
-
-This will then output:
-
-``` bash
-$ python main.py
-63K
-```
 
 ## Usage
 
-Update the username variable on line 4 to the desired profile.
-It should be what follows the '@' symbol on someone's profile.
+In it's current form it will output the following:
 
-Then run the script with Python:
-
-``` bash
-python main.py
+```sh
+$ ./main.py emrata
+emrata has 63K followers!
 ```
+
+If you want it to output just the follower count you can run it with the `-s` or `--short` flag;
+
+```sh
+$ ./main.py -s emrata
+63K
+```
+
 
 ## Requirements
 
