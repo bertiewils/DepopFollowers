@@ -19,6 +19,21 @@ $ ./main.py -s emrata
 63K
 ```
 
+If in doubt, check the `--help` output:
+
+```sh
+$ ./main.py --help
+usage: main.py [-h] [-s] username
+
+Retrieve follower count for a user on Depop
+
+positional arguments:
+  username     username of the user
+
+optional arguments:
+  -h, --help   show this help message and exit
+  -s, --short  print just the follower count
+```
 
 ## Requirements
 
