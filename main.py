@@ -15,9 +15,9 @@ response = requests.get('https://www.depop.com/' + args.username)
 
 soup = BeautifulSoup(response.text, 'html.parser')
 
-followers = soup.find(class_='styles__StatsValue-sc-9h44if-0 DtCMM').text
+followers = soup.find(class_='styles__StatsValue-sc-9h44if-0').text
 
 if args.short:
-	print(followers)
+    print(followers)
 else:
-	print(args.username + " has " + followers + " followers!")
+    print(args.username + " has " + followers + " followers!")
